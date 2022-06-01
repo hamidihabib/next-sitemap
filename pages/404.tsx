@@ -13,23 +13,11 @@ export default function FourHundredFour() {
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    p {
-      padding: 10px;
-    }
-    button {
-      color: var(--text-invert);
-      background-color: var(--hyperlink);
-      padding: 10px 20px;
-      border: solid 0px transparent;
-      border-radius: 20px;
-    }
   `;
 
   return (
     <Div>
-      <a href="/">
-        <button>404</button>
-      </a>
+      <h1>404</h1>
     </Div>
   );
 }
