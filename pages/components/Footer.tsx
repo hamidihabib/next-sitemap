@@ -1,11 +1,7 @@
-import { useTranslation } from "next-i18next";
+import React from 'react'
 
-export const Footer = () => {
-  const { t } = useTranslation("footer");
-
+export default function Footer() {
   return (
-    <footer>
-      <p>{t("description")}</p>
-    </footer>
-  );
-};
+    <div>Footer</div>
+  )
+}
