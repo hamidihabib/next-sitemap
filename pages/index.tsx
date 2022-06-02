@@ -1,13 +1,24 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from "next";
+import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useTranslation } from 'next-i18next';
 
-const Home: NextPage = () => {
-  return (
-    <div className={styles.container}>
-    </div>
-  )
+export async function getStaticProps({ locale }:any) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ['common'])),
+      // Will be passed to the page component as props
+    },
+  };
 }
 
-export default Home
+
+const Home: NextPage = ({props}:any) => {
+  const { t } = useTranslation('common');
+  return (
+    <div>
+      {t("common:welcome")}
+    </div>
+  );
+};
+
+export default Home;

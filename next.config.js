@@ -3,19 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
+const { i18n } = require("./next-i18next.config");
+
 module.exports = {
   nextConfig,
-  i18n: {
-    locales: ["en", "fr", "de"],
-    defaultLocale: "en",
-  },
-  async redirects() {
-    return [
-      {
-        source: "/about",
-        destination: "/",
-        permanent: true,
-      },
-    ];
-  },
+  i18n,
 };
