@@ -1,0 +1,17 @@
+{
+  "theme_color": "#f69435",
+  "background_color": "#f69435",
+  "display": "standalone",
+  "scope": "/scope",
+  "start_url": "/localhost:3000",
+  "name": "name",
+  "short_name": "wpa_short_name",
+  "description": "wpa-description",
+  "icons": [
+    {
+      "src": "./favicon.ico",
+      "size": "256x256",
+      "type": "image/ico"
+    }
+  ]
+}
