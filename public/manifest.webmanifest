@@ -1,5 +1,5 @@
 {
-  "name": "next-sitemap.vercel.app",
+  "name": "next",
   "short_name": "next-sitemap",
   "description": "Progressive Web App that lists games submitted to the A-Frame category in the js13kGames 2017 competition.",
   "icons": [
