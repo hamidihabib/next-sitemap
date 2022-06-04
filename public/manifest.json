@@ -1,12 +1,12 @@
 {
   "theme_color": "#f69435",
   "background_color": "#f69435",
-  "display": "browser",
-  "scope": "https://next-sitemap.vercel.app/",
+  "display": "standalone",
+  "scope": "next-sitemap.vercel.app/",
   "start_url": "https://next-sitemap.vercel.app",
-  "name": "name",
-  "short_name": "wpa_short_name",
-  "description": "wpa-description",
+  "name": "next-sitemap.vercel.app",
+  "short_name": "next-sitemap",
+  "description": "next-sitemap.vercel.app",
   "icons": [
     {
       "src": "./favicon.ico",
