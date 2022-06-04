@@ -1,12 +1,7 @@
 {
-  "theme_color": "#f69435",
-  "background_color": "#f69435",
-  "display": "standalone",
-  "scope": "next-sitemap.vercel.app/",
-  "start_url": "https://next-sitemap.vercel.app",
   "name": "next-sitemap.vercel.app",
   "short_name": "next-sitemap",
-  "description": "next-sitemap.vercel.app",
+  "description": "Progressive Web App that lists games submitted to the A-Frame category in the js13kGames 2017 competition.",
   "icons": [
     {
       "src": "/96x96.png",
@@ -29,5 +24,10 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "theme_color": "#f69435",
+  "background_color": "#f69435",
+  "scope": "next-sitemap.vercel.app/"
 }
